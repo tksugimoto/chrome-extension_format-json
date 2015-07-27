@@ -1,0 +1,21 @@
+{
+  "name": "JSON整形",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "JSON整形",
+  "icons": {
+    "128": "icon/icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icon/icon.png",
+    "default_title": "JSON整形",
+    "default_popup": "popup.html"
+  }
+}
