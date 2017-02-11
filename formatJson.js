@@ -1,7 +1,7 @@
 ﻿try {
-	var text = document.body.innerText;
-	var obj = JSON.parse(text);
-	var pre = document.createElement("pre");
+	const text = document.body.innerText;
+	const obj = JSON.parse(text);
+	const pre = document.createElement("pre");
 	pre.innerText = JSON.stringify(obj, null, "\t");
 	document.body.innerText = "";
 	document.body.appendChild(pre);

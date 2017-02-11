@@ -1,5 +1,5 @@
 ﻿
-chrome.browserAction.onClicked.addListener(function (tab){
+chrome.browserAction.onClicked.addListener(tab => {
 	chrome.tabs.executeScript(null, {
 		file: "formatJson.js"
 	});
